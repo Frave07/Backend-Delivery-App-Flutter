@@ -1,0 +1,30 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Restaurant Backend ",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "author": "Frave Developer",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.14.9",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
